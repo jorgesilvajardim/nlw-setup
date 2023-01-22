@@ -37,6 +37,12 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
+
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
 
 #form-habits {
@@ -96,6 +102,11 @@ input {
   border: 2px solid #27272A;
   border-radius: 8PX;
   background: #181818;
+  transition: transform 0.3s;
+}
+
+input:hover {
+  transform: scale(1.05);
 }
 
 input:checked {
